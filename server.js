@@ -7,7 +7,7 @@ const { URL } = require('node:url');
 const PORT = Number(process.env.PORT || 3000);
 const API_KEY = process.env.GEMINI_API_KEY;
 const MODEL = process.env.GEMINI_MODEL || 'gemini-2.5-flash';
-const ROOT = __dirname;
+const ROOT = fs.existsSync(path.join(__dirname, 'public')) ? path.join(__dirname, 'public') : __dirname;
 const MIME = { '.html':'text/html; charset=utf-8', '.js':'application/javascript; charset=utf-8', '.css':'text/css; charset=utf-8', '.png':'image/png', '.jpg':'image/jpeg', '.jpeg':'image/jpeg', '.svg':'image/svg+xml', '.ico':'image/x-icon' };
 const STEPS = ['Define the problem','Identify who is affected','Map the root causes','Review existing efforts','Assess the local context','Generate solution options','Compare trade-offs','Choose a practical approach','Plan next steps'];
 const CHAT_SYSTEM = `You are BLU, the AI assistant inside ProSolv, a platform that turns real-world problems into practical solutions. Help users understand problems, explore possible solutions, compare advantages and limitations, and identify practical next steps. Be clear, concrete and concise. Use short paragraphs or simple bullet points. If a question is unrelated to problem solving, briefly steer back to it. Do not claim to have performed real-world actions.`;
