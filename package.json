@@ -1,0 +1,8 @@
+{
+  "name": "prosolv-local",
+  "version": "1.0.0",
+  "private": true,
+  "description": "ProSolv website with a secure Gemini-powered BLU assistant",
+  "scripts": { "start": "node server.js" },
+  "engines": { "node": ">=18" }
+}

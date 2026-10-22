@@ -1,0 +1,46 @@
+// ProSolv Domain & Problem Dataset with 20 Domains, Emojis, and Real-World Challenges
+window.PROSOLV_DOMAINS_DEF = [
+  ["agri", "Agriculture & Farming", "🌾"],
+  ["health", "Healthcare", "🩺"],
+  ["edu", "Education", "📚"],
+  ["water", "Water & Sanitation", "💧"],
+  ["env", "Environment & Climate", "🌍"],
+  ["energy", "Energy", "☀️"],
+  ["mob", "Transportation & Mobility", "🚌"],
+  ["waste", "Waste Management", "♻️"],
+  ["city", "Smart Cities & Urban Living", "🏙️"],
+  ["rural", "Rural Development", "🏘️"],
+  ["safe", "Public Safety", "🛡️"],
+  ["access", "Accessibility & Inclusion", "♿"],
+  ["food", "Food & Nutrition", "🥗"],
+  ["house", "Housing & Infrastructure", "🏗️"],
+  ["fin", "Finance & Financial Literacy", "💰"],
+  ["ai", "AI & Technology", "🤖"],
+  ["cyber", "Cybersecurity", "🔐"],
+  ["space", "Space & Aerospace", "🚀"],
+  ["heri", "Cultural Heritage", "🏛️"],
+  ["comm", "Community Development", "🤝"]
+];
+
+window.PROSOLV_PROBLEMS_RAW = [
+  ["agri", "Farmers can't tell when soil needs water", "Small farmers often water by habit, wasting water and money while crops still suffer stress.", "Irrigation by guesswork|No cheap soil data|Unreliable power for pumps", "small farmers, farm families", "Low-cost soil moisture sensor|Colour-coded stick guide|SMS watering alerts", "Intermediate", "Tech", 1800],
+  ["health", "Villagers skip check-ups because clinics are far", "Travel costs a day's wages, so many conditions are caught late.", "Distance to clinic|Lost wages|Low health awareness", "villagers, elderly, ASHA workers", "Monthly check-up camp|Trained health volunteers|Low-bandwidth video consults", "Intermediate", "Community", 2500],
+  ["edu", "Students lack access to good study material", "Many students have no library, reliable internet or printed resources.", "No local library|Patchy internet|Language barriers", "students, teachers", "Offline content box|Peer study circles|Bilingual glossary cards", "Beginner", "Community", 1500],
+  ["water", "Schools waste water at taps and toilets", "Leaking taps and running water raise bills and cause shortages.", "Leaky fittings|No awareness|No monitoring", "students, school staff", "Student water monitors|Tap-timer posters|Greywater garden", "Beginner", "Campus", 1200],
+  ["env", "Urban heat is making neighbourhoods unbearable", "Concrete-heavy areas stay hot long after sunset.", "Few trees|Dark roofs|Paved surfaces", "residents, outdoor workers", "Cool-roof paint trial|Mini tree corridors|Shaded bus-stop designs", "Intermediate", "Community", 3000],
+  ["energy", "Power cuts disrupt evening study in villages", "Students lose study time when electricity fails.", "Grid overload|No backup lighting|Low awareness of subsidies", "students, parents", "Student-built solar lantern|School solar corner|Shifted study hours", "Advanced", "Tech", 2800],
+  ["mob", "Last-kilometre gap from metro station to home", "Unsafe footpaths and costly autos push people to private vehicles.", "Broken footpaths|Infrequent feeders|Safety concerns", "commuters, women, elderly", "Walkability audit|Shared e-cycle stand|Fixed-fare share autos", "Beginner", "Community", 2000],
+  ["waste", "Mixed waste ends up in landfill", "Households and schools mix wet and dry waste, making recycling hard.", "Confusing bins|No habit|Weak collection", "households, sanitation workers", "Colour-coded bin game|Compost corner|Weekly segregation audit", "Beginner", "Campus", 1000],
+  ["city", "Crowded bus stops with no live information", "Commuters wait without knowing when buses arrive.", "No arrival data|Irregular schedules|Poor signage", "commuters, bus staff", "QR timetable boards|Crowd-sourced arrival board|Shelter redesign", "Intermediate", "Tech", 2200],
+  ["rural", "Village produce reaches market late", "Poor roads and no pooling push farmers to sell cheap.", "Bad roads|No pooling|Weak market info", "farmers, traders", "Village collection point|Shared transport roster|Price board", "Intermediate", "Community", 2500],
+  ["safe", "Unlit lanes feel unsafe after dark", "Poor lighting and no reporting channel worry residents.", "Broken lights|No reporting route|Isolated paths", "women, students, elderly", "Light-fault map|Buddy walk roster|Solar path lights", "Intermediate", "Community", 3500],
+  ["access", "School materials are hard for visually impaired students", "Few tactile or audio resources exist for local-language lessons.", "No tactile maps|Few audio books|Teacher training gaps", "visually impaired students, teachers", "3D-printed or card tactile maps|Recorded lessons|Peer reader program", "Advanced", "Tech", 3000],
+  ["food", "Canteens throw away edible food daily", "Over-cooking and no tracking create waste and cost.", "No demand tracking|Large fixed portions|No sharing system", "canteen staff, students", "Daily plate-count log|Half-portion option|Surplus sharing board", "Beginner", "Campus", 800],
+  ["house", "Monsoon leaks damage low-cost housing", "Poor roofing and drainage cause damp and illness.", "Weak roofing|Blocked drains|Costly repairs", "families, local masons", "Low-cost sealing guide|Community drain cleaning|Raised plinth trial", "Intermediate", "Community", 3200],
+  ["fin", "Young people don't understand savings or UPI scams", "First-time earners fall for fraud and rarely save.", "No money lessons|Scam tactics evolve|Peer pressure", "teens, first-time earners", "Role-play fraud drills|Savings challenge|Simple budget card", "Beginner", "Campus", 600],
+  ["ai", "AI tools in class encourage copying without learning", "Students submit AI output without understanding it.", "Easy copy-paste|Weak assessments|No AI-use guidance", "students, teachers", "Explain-your-steps rule|Oral viva check|Class AI use charter", "Intermediate", "Campus", 500],
+  ["cyber", "Weak passwords and phishing at home and school", "Families reuse passwords and click unsafe links.", "Password reuse|Low awareness|Fake links look real", "families, students", "Phishing spot-the-sign game|Password manager workshop|Family safety checklist", "Beginner", "Campus", 500],
+  ["space", "Teaching satellite basics without expensive kits", "Space topics feel distant for schools lacking labs.", "No kits|Abstract concepts|Little local context", "students, science teachers", "Pocket model satellite|Sky-watching log|Low-cost balloon payload plan", "Advanced", "Tech", 2800],
+  ["heri", "Local heritage sites are fading from memory", "Young people know little about nearby monuments and crafts.", "No local storytelling|Poor documentation|Limited tourism info", "youth, elders, artisans", "Student heritage walk|Oral-history archive|QR story plaques", "Intermediate", "Community", 1500],
+  ["comm", "Neighbours rarely share skills and tools", "Useful tools and skills sit unused while people pay for services.", "No sharing platform|Trust gaps|No organiser", "neighbours, local groups", "Tool library shelf|Skill swap day|Neighbourhood notice board", "Beginner", "Community", 1000]
+];
